@@ -1,4 +1,4 @@
-# Version 3.3.1-12_ianmacd.
+# Version 3.3.1-13_ianmacd.
 
 # Architecture
 TARGET_ARCH := arm64
@@ -44,11 +44,6 @@ TARGET_BOARD_PLATFORM_GPU := mali-g76
 BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
-
-# Crypto
-#TARGET_HW_DISK_ENCRYPTION := true
-TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_FBE := true
 
 # TWRP specific build flags
 RECOVERY_VARIANT := twrp
