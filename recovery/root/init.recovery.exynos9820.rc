@@ -1,7 +1,5 @@
-on fs
-    export ANDROID_ROOT /system_root
-
 on init
+    export ANDROID_ROOT /system_root
     write /proc/sys/kernel/hung_task_timeout_secs 0
 
-on boot
+
